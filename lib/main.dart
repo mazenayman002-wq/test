@@ -58,7 +58,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 const Icon(
                   Icons.lock,
-                  size: 100,
+                  size: 101,
                   color: Colors.blue,
                 ),
 
