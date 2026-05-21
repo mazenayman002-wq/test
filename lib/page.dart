@@ -9,7 +9,7 @@ class UserPage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "دي صفحة الاسم والعمر",
+          "دي صفحة hgjjkasllkasjdlkajdlkasjdklajlkdjaljdر",
           style: TextStyle(fontSize: 20),
         ),
       ),
