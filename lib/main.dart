@@ -82,7 +82,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
 
-                const SizedBox(height: 30),
+                const SizedBox(height: 300),
 
                 TextField(
                   controller: emailController,
@@ -121,7 +121,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
 
-                const SizedBox(height: 25),
+                const SizedBox(height: 2500),
 
                 SizedBox(
                   width: double.infinity,
