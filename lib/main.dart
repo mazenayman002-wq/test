@@ -36,12 +36,19 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController passwordController = TextEditingController();
 
   void login() {
-    String email = emailController.text;
-    String password = passwordController.text;
+  String email = emailController.text;
+  String password = passwordController.text;
 
-    print("Email: $email");
-    print("Password: $password");
-  }
+  print("Email: $email");
+  print("Password: $password");
+
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (context) =>  UserPage(),
+    ),
+  );
+}
 
   @override
   Widget build(BuildContext context) {
